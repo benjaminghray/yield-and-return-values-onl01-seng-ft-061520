@@ -1,4 +1,3 @@
-require 'pry'
 def hello(array)
   i = 0
   while i < array.length
@@ -9,4 +8,3 @@ def hello(array)
   collection
 end
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
-binding.pry 
